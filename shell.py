@@ -1,9 +1,9 @@
-import basic
+import primis
 #======================================================================================================================================================================================================
  
 while True:
     text = input('BASIC >  ');
-    result, error = basic.run('<From the console>',text)
+    result, error = primis.run('<From the console>',text)
 
     if error: print(error.as_string() )
-    else: print(result)
+    else: print(f"\n{result}\n")
